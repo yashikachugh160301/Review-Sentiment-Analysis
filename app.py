@@ -4,7 +4,6 @@ import pickle
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.externals import joblib
 from sklearn.metrics.pairwise import cosine_similarity
 
 app=Flask(__name__)
